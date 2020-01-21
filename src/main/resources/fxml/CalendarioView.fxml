@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dad.javafx.componentes.MonthCalendar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="view" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" vgap="5.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="1.7976931348623157E308" valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="1.7976931348623157E308" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onLessAction" text="&lt;" GridPane.halignment="LEFT" />
+      <Label fx:id="anio" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+      <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onPlusAction" text="&gt;" GridPane.columnIndex="3" GridPane.halignment="RIGHT" />
+      <MonthCalendar fx:id="mes1" GridPane.rowIndex="1" />
+      <MonthCalendar fx:id="mes2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <MonthCalendar fx:id="mes3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <MonthCalendar fx:id="mes4" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <MonthCalendar fx:id="mes5" GridPane.rowIndex="2" />
+      <MonthCalendar fx:id="mes6" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <MonthCalendar fx:id="mes7" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <MonthCalendar fx:id="mes8" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <MonthCalendar fx:id="mes9" GridPane.rowIndex="3" />
+      <MonthCalendar fx:id="mes10" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <MonthCalendar fx:id="mes11" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <MonthCalendar fx:id="mes12" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</GridPane>

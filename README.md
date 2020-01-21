@@ -1,3 +1,3 @@
-# JavaFXTemplate
+# Calendario
 
-Plantilla para nuevos proyectos JavaFX con Maven.
+Calendario creado con componentes.
