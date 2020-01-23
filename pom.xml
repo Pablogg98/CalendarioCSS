@@ -24,5 +24,17 @@
 			<artifactId>javafx-fxml</artifactId>
 			<version>11.0.1</version>
 		</dependency>
+	<dependency>
+			<groupId>dad.javafx</groupId>
+			<artifactId>Componentes</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>componentes-repo</id>
+			<url>https://github.com/Pablogg98/Componentes/raw/master/repository</url>
+		</repository>
+	</repositories>
 </project>
