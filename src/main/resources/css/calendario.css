@@ -8,12 +8,12 @@
 	-fx-effect: dropshadow(gaussian, black, 10.0, 0.2, 2.0, 2.0)
 }
 
-#nameMonth  {
+.nameMonth  {
 	-fx-font-size: 13.0pt;
 	-fx-font-weight: bolder;
 }
 
-#year {
+.year {
 	-fx-font-family: Arial;
 	-fx-font-size: 22.0pt;
 	-fx-font-weight: bolder;
@@ -21,28 +21,26 @@
 	-fx-effect: dropshadow(gaussian, black, 10.0, 0.2, 2.0, 2.0)
 }
 
-#diasSemana  {
+.diasSemana  {
 	-fx-font-weight: bolder;
 }
 
-#domingoN  {
-	-fx-text-fill: red;
-	-fx-font-weight: bolder;
-}
-
-#domingo  {
+.domingo  {
 	-fx-font-style: italic;
 	-fx-text-fill: red;
 }
 
-#day  {
+.day  {
 	-fx-font-style: italic;
 }
 
 .today {
 	-fx-background-color: linear-gradient(to bottom right, white, orange);
+	-fx-background-radius: 10px;
 	-fx-border-style: dashed;
+	-fx-border-radius: 10px;
 	-fx-font-weight: bolder;
 	-fx-text-fill: black;
+	
 }
 
