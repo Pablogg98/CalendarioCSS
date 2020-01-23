@@ -24,7 +24,7 @@
   </rowConstraints>
    <children>
       <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onLessAction" text="&lt;" GridPane.halignment="LEFT" />
-      <Label id="year" fx:id="anio" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+      <Label id="year" fx:id="anio" styleClass="year" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" />
       <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onPlusAction" text="&gt;" GridPane.columnIndex="3" GridPane.halignment="RIGHT" />
       <MonthCalendar id="month" fx:id="mes1" GridPane.rowIndex="1" />
       <MonthCalendar fx:id="mes2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
