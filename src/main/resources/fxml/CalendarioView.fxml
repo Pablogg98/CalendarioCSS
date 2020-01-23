@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane fx:id="view" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" vgap="5.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+<GridPane fx:id="view" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" stylesheets="@../css/calendario.css" vgap="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
   <columnConstraints>
     <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
@@ -24,9 +24,9 @@
   </rowConstraints>
    <children>
       <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onLessAction" text="&lt;" GridPane.halignment="LEFT" />
-      <Label fx:id="anio" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+      <Label id="year" fx:id="anio" text="Label" GridPane.columnIndex="1" GridPane.columnSpan="2" />
       <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onPlusAction" text="&gt;" GridPane.columnIndex="3" GridPane.halignment="RIGHT" />
-      <MonthCalendar fx:id="mes1" GridPane.rowIndex="1" />
+      <MonthCalendar id="month" fx:id="mes1" GridPane.rowIndex="1" />
       <MonthCalendar fx:id="mes2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <MonthCalendar fx:id="mes3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <MonthCalendar fx:id="mes4" GridPane.columnIndex="3" GridPane.rowIndex="1" />
